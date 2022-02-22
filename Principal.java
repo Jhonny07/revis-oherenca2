@@ -14,13 +14,13 @@ public class Principal {
         System.out.println(" Imovel Novo ");
         System.out.println(novo.getEndereco());
         System.out.println(novo.getPreco());
-        System.out.println(novo.getAdicional());
+        System.out.println(novo.valorFinal());
         System.out.println("---------------------");
 
         System.out.println("Imovel Velho ");
         System.out.println(velho.getEndereco());
         System.out.println(velho.getPreco());
-        System.out.println(velho.getDesconto());
+        System.out.println(velho.valorDesconto());
         System.out.println("---------------------");
     }
     
